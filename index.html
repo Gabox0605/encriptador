@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script type="text/javascript" src="script.js"></script>
+    <title>Encriptador Alura Challenger</title>
+</head>
+<body>
+    <input type="text" id="textoEncriptado">
+    <textarea name="resultado" id="textoDesencriptado" cols="30" rows="10"></textarea>
+    <button type="button" id="botonEncriptado">Encriptar</button>
+    <button type="button" id="botonDesencriptado">Desencriptar</button>
+    <button type="button" id="botonCopiar">Copiar</button>
+
+    
+</body>
+<script>
+    var btn = document.querySelector("#botonEncriptado");
+    btn.onclick = encriptar;
+</script>
+</html>
